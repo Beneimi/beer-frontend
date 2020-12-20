@@ -1,0 +1,44 @@
+
+#searchContainer{
+    margin: 1em auto 1em auto;
+    text-align: center;
+    width: fit-content;
+    background-color:rgba(255, 153, 0, 0.774);
+    padding: 1em;
+  }
+
+#searchButton, #addButton{
+    margin: 1em;
+}
+
+#attributesTable{
+    margin: 1em auto 1em auto ;
+}
+  
+#beerTable>tbody>tr>td{
+    border: 0.1em solid black;
+    padding: 0.6em;
+}
+
+#beerTable>thead>tr>td{
+    border: 0.1em solid black;
+    padding: 0.6em;
+    font-weight: bold;
+}
+
+
+#beerTable{
+    width: fit-content;
+    background-color: rgba(255, 153, 0, 0.774);
+    padding: 2em;
+    border-collapse: collapse;
+    margin: 1em auto 1em auto ;
+}
+
+#updateContainer{
+    margin: 1em auto 1em auto;
+    text-align: center;
+    width: fit-content;
+    background-color:rgba(255, 153, 0, 0.774);
+    padding: 1em;
+}

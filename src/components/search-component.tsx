@@ -21,7 +21,7 @@ const Search = () => {
 
 
 
-    const baseURL = "http://localhost:8080/beers/"
+    const baseURL = "https://beer-api-2020.herokuapp.com/beers/"
 
     const fetching = (url: String) =>{
         fetch(url.toString())

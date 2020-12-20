@@ -18,7 +18,7 @@ const Update = (props : {onFinish: React.Dispatch<React.SetStateAction<boolean>>
     const [type, setType] = useState(props.beer.type)
     const [rating, setRating] = useState(props.beer.rating.toString())
 
-    const baseURL = "http://localhost:8080/beers/"
+    const baseURL = "https://beer-api-2020.herokuapp.com/beers/"
 
 
     const sendUpdate = () => {
